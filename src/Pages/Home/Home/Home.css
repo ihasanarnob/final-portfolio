@@ -1,3 +1,6 @@
+.background-clr {
+  background-color:  #473A7C ;
+}
 .banner {
     position: relative;
     background: url(../../../Images/bg-portfolio.jpg) no-repeat;
@@ -13,3 +16,4 @@
     text-align: center;
     color: #322d2c;
   }
+

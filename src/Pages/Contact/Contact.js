@@ -8,6 +8,7 @@ const Contact = () => {
         emailjs.sendForm('service_du179gs', 'template_m5d5sph', e.target, 'user_a2On5AqmBmm27Uo1MbPR0')
             .then(res => console.log(res))
             .catch(err => console.log(err))
+        e.target.reset();
     }
     return (
         <div className="container border" style={{ marginTop: "50px", width: "50%", backgroundColor: "#94908F" }}>

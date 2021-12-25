@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 const Home = () => {
     return (
-        <div className="banner">
+        <div className="banner background-clr">
             <div className="main-info">
                 <h3 className="mt-5">Hey there!</h3>
                 <h1>My name is MD. IFTEKHAR HASAN</h1>
