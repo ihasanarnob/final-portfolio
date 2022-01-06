@@ -15,6 +15,8 @@ import Project1 from "./Pages/Projects/Project1";
 import Project2 from "./Pages/Projects/Project2";
 import Project3 from "./Pages/Projects/Project3";
 import Project4 from "./Pages/Projects/Project4";
+import Project5 from "./Pages/Projects/Project5";
+import Project6 from "./Pages/Projects/Project6";
 import Projects from "./Pages/Projects/Projects";
 
 
@@ -37,6 +39,8 @@ function App() {
           <Route path="/project2"> <Project2></Project2> </Route>
           <Route path="/project3"> <Project3></Project3> </Route>
           <Route path="/project4"> <Project4></Project4> </Route>
+          <Route path="/project5"> <Project5></Project5> </Route>
+          <Route path="/project6"> <Project6></Project6> </Route>
         </Switch>
       </Router>
 
